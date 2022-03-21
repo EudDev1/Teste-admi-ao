@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.body {
+  background-color: rgb(111, 0, 155);
+}
+
+/* Main */
+
+.container {
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container header {
+  display: flex;
+  background-color: rgb(97, 43, 245);
+  margin: 0 auto;
+  height: 170px;
+  color: white;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 90%;
+}
+
+.container header p {
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 42px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container header i {
+  margin-left: 38px;
+  font-size: 150px;
+
+  color: rgb(43, 10, 133);
+}
+
+/* show purchase form */
+.body .show .menu {
+  background-color: #fffefe;
+  opacity: 1;
+  visibility: visible;
+  height: auto;
+  width: 450px;
+  display: grid;
+  margin: 20px;
+  border: #000000 solid 1px;
+  border-radius: 5px;
+  position: fixed;
+  margin-top: 140px;
+}
+
+section .menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.shown {
+display: block;
+}
+
+.hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.menu form label {
+  display: block;
+  margin: 10px auto 20px 10px;
+  color: #000000;
+}
+
+.menu form label input {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  outline: none;
+  appearance: none;
+  display: block;
+  height: 25px;
+  width: 300px;
+  padding: 5px;
+}
+
+#button-purchase {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  background-color: rgb(97, 43, 245);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+#button-purchase:hover {
+  opacity: 0.9;
+}
+
+#button-purchase:active {
+  opacity: 0.7;
+}
+
+/* IMAGES */
+.img-div {
+  margin-top: 30px;
+  padding-left: 35px;
+}
+
+.checkbox-input-allocation {
+  margin-bottom: 20px;
+}
+
+.img-div h2 {
+  margin-bottom: 20px;
+}
+
+.checkbox-div label input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.checkbox-input-allocation div img {
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+
+/* Quantity-choice */
+.quantity-choice h2 {
+  color: #000000;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.menu .quantity-choice label input {
+  display: inline;
+  width: 50px;
+}
+
+/* Icon The amount */
+
+.div-icons a i {
+  color: rgb(97, 43, 245);
+  margin: 0 auto;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.div-icons input {
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  outline: none;
+  appearance: none;
+  width: 60px;
+  height: 25px;
+  background: #bfd3f8;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15);
+  margin: 0 10px;
+}
+
+/* BUTTON PURCHASE*/
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  background-color: rgb(97, 43, 245);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 150px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+/* COMMENTS */
+
+.comments {
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  outline: none;
+  appearance: none;
+  background-color: #bfd3f8;
+  width: 90%;
+  height: 120px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.comments-div {
+  margin-top: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 100px;
+  background-color: #bfd3f8;
+  display: flex;
+  padding: 30px;
+}
+
+.footer .button-footer {
+  display: block;
+  margin: 0 auto;
+  margin-right: 50px;
+}
