@@ -2,8 +2,6 @@ const amountReactInput = document.getElementById("amount-react")
 const amountVueInput = document.getElementById("amount-vue")
 const amountAngularInput = document.getElementById("amount-angular")
 
-
-
 function calcTotal() {
   const amountReact = parseInt(amountReactInput.value);
   const amountVue = parseInt(amountVueInput.value);
@@ -26,8 +24,8 @@ amountInputList.forEach( function (input) {
 /* Mostrar login && Fechar login*/
 
 const nav = document.querySelector("#container");
-const button = document.querySelectorAll(" .button-purchase-class");
-const toBack = document.getElementById("to-back");
+const button = document.querySelectorAll(".button-purchase-class");
+const toBack = document.querySelector("#to-back");
 
 for (const element of button) {
   element.addEventListener("click", function () {
@@ -38,3 +36,14 @@ for (const element of button) {
     nav.classList.remove("show");
   });
 }
+
+/* Mostrar pagina de agradecimento && Fechar pagina de agradecimento*/
+
+const buttonConfirm = document.querySelector("#button-confirm")
+const concludedWrapper = document.querySelector("#concluded-wrapper")
+const confirmForm = document.querySelector("#id-form")
+
+buttonConfirm.addEventListener("click" , function() {
+  concludedWrapper.classList.remove("hidden")
+  confirmForm.classList.add("hidden")
+})

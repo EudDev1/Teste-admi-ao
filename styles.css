@@ -8,6 +8,7 @@
 
 .body {
   background-color: rgb(111, 0, 155);
+  height: 100%;
 }
 
 /* Main */
@@ -54,7 +55,7 @@
   visibility: visible;
   height: auto;
   width: 450px;
-  display: grid;
+  
   margin: 20px;
   border: #000000 solid 1px;
   border-radius: 5px;
@@ -66,16 +67,6 @@ section .menu {
   opacity: 0;
   visibility: hidden;
 }
-
-.shown {
-display: block;
-}
-
-.hidden{
-  opacity: 0;
-  visibility: hidden;
-}
-
 
 .menu form label {
   display: block;
@@ -95,7 +86,7 @@ display: block;
   padding: 5px;
 }
 
-#button-purchase {
+#button-confirm {
   height: 40px;
   width: 100%;
   border-radius: 5px;
@@ -107,13 +98,72 @@ display: block;
   font-size: 20px;
   font-weight: 500;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
-#button-purchase:hover {
+#button-confirm:hover {
   opacity: 0.9;
 }
 
-#button-purchase:active {
+#button-confirm:active {
+  opacity: 0.7;
+}
+
+/* Preference thank you page */
+.hidden {
+  display: none;
+}
+
+.concluded {
+  background-color: #fffefe;
+
+  height: 570px;
+  width: 450px;
+  display: grid;
+ 
+  border: #000000 solid 1px;
+  border-radius: 5px;
+ 
+}
+
+.concluded img {
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.concluded h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.concluded #total {
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.concluded .button-concluded {
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  background-color: rgb(97, 43, 245);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.button-concluded:hover {
+  opacity: 0.9;
+}
+
+.button-concluded:active {
   opacity: 0.7;
 }
 
@@ -192,6 +242,7 @@ button {
   font-size: 15px;
   font-weight: 500;
   margin-left: 150px;
+  margin-bottom: 15px;
 }
 
 button:hover {
