@@ -23,6 +23,7 @@
      </td>
     </tr>
 </table>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
