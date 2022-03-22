@@ -1,17 +1,17 @@
-# Loja de Adesivos
+#Loja de Adesivos
 
  <table>
-      <tr>
+     <tr>
        <td align="center">
-        <img src="./assets/tela princiapl.png" width="400"><br>
-       </td>
+        <img src="./assets/tela princiapl.png" width="300"><br>
+      </td>
        </tr>
     </table>
 
   <table> 
     <tr>
        <td align="center">
-        <img src="./assets/tela de formulario.png" width="400"><br>
+        <img src="./assets/tela de formulario.png" width="300"><br>
     </td>
     </tr>
   </table>
@@ -19,7 +19,7 @@
  <table>
     <tr>
      <td align="center">
-       <img src="./assets/concluded.png" width="400"><br>
+       <img src="./assets/concluded.png" width="300"><br>
      </td>
     </tr>
 </table>
