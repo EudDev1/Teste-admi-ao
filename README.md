@@ -1,31 +1,37 @@
 # Loja de Adesivos
- 
+
  <table>
-  <tr>
-    <td align="center">
+      <tr>
+       <td align="center">
         <img src="./assets/tela princiapl.png" width="400"><br>
-    </td>
-        <td align="center">
+       </td>
+       </tr>
+    </table>
+
+  <table> 
+    <tr>
+       <td align="center">
         <img src="./assets/tela de formulario.png" width="400"><br>
     </td>
-        <td align="center">
-        <img src="./assets/concluded.png" width="400"><br>
-    </td>
-</tr>
-</table>
- 
+    </tr>
+  </table>
 
-##  🚀 Tecnologias
+ <table>
+    <tr>
+     <td align="center">
+       <img src="./assets/concluded.png" width="400"><br>
+     </td>
+    </tr>
+</table>
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- Javascript 
+- Javascript
 
-
-
-##  💻 Projeto
+## 💻 Projeto
 
 Loja de Adesivos foi um desafio para teste de conhecimento e habilidades!
 
